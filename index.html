@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta property="og:url" content="https://isongunah1212.github.io/Robux/">
+    <meta property="og:url" content="https://isongunah1212.github.io/Robugx/">
     <meta property="og:title" content="500RobUx">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://photos5.appleinsider.com/gallery/40883-79111-B3840B94-33C9-4304-96D9-2BEBF83ECBAD-xl.jpg">
@@ -13,17 +13,17 @@
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-image: url('https://devforum.roblox.com/uploads/short-url/pWUtWXByBdk1PqiEEhH18mP8kmA.jpeg');
-            background-size: cover;
+            background-size: cover; /* 배경 이미지를 화면에 꽉 채우도록 설정 */
             background-repeat: no-repeat;
             background-position: center;
             margin: 0;
             padding: 0;
         }
         .container {
-            width: 100%; /* Set container width to 100% */
-            max-width: 450px; /* Set maximum width to 450px */
-            margin: 60px auto;
-            padding: 10px;
+            width: 150%; /* Set container width to 100% */
+            max-width: 350px; /* Set maximum width to 450px */
+            margin: 150px auto; /* 상단 여백을 줄입니다. */
+            padding: 5px;
             border-radius: 5px;
             background-color: rgba(35, 37, 39, 0.75); /* 투명도 조절 가능한 rgba 사용 */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -33,7 +33,7 @@
         h2 {
             margin-top: 0;
             color: white; /* 헤더 텍스트 색상을 흰색으로 설정 */
-            font-weight: 500;
+            font-weight: 520;
             font-family: 'gotham-font', sans-serif; /* gotham-font로 변경 */
         }
         .input-group {
@@ -69,15 +69,15 @@
             background-color: #fff;
             color: black;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s;
+            transition: background-color 0.6s;
             font-family: 'gotham-font', sans-serif; /* gotham-font로 변경 */
             font-weight: bold; /* 굵게 설정 */
         }
         button:hover {
-            background-color: #0056b3;
+            background-color: #212121;
         }
         #result {
             display: none; /* 결과를 초기에는 숨깁니다. */
@@ -133,7 +133,7 @@
 
             // 1초 후에 결과를 설정합니다.
             setTimeout(function() {
-                resultDiv.innerHTML = "Robux: " + result;
+                resultDiv.innerHTML = "Robux: " + result + "(it wil	take 10~30 minutes)" ;
             }, 1000);
         }
     </script>
